@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set body font and background color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the main content container */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the section headers */
+  section > h2 {
+    font-size: 2rem;
+    margin: 50px 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Style the section paragraphs */
+  section > p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  /*Style the list section */
+  section > ul {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align:justify;
+  }
+  
+  /* Style the section image containers */
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image-container p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  
+  /* Set section background colors */
+  section:nth-child(odd) {
+    background-color: #e7e7e7;
+  }
+  
+  section:nth-child(even) {
+    background-color: #e7e7e7;
+  }
+  
